@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+2 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"> 
+3 	<modelVersion>4.0.0</modelVersion> 
+4 	<groupId>com.mkyong</groupId> 
+5 	<artifactId>NumberGenerator</artifactId> 
+6 	<packaging>jar</packaging> 
+7 	<version>1.0-SNAPSHOT</version> 
+8 	<name>NumberGenerator</name> 
+9 	<url>http://maven.apache.org</url> 
+10 	<dependencies> 
+11 		<dependency> 
+12 			<groupId>junit</groupId> 
+13 			<artifactId>junit</artifactId> 
+14 			<version>4.11</version> 
+15 			<scope>test</scope> 
+16 		</dependency> 
+17 	</dependencies> 
+18 
+ 
+19 	<build> 
+20 		<plugins> 
+21 			<plugin> 
+22 				<groupId>org.apache.maven.plugins</groupId> 
+23 				<artifactId>maven-compiler-plugin</artifactId> 
+24 				<version>2.3.2</version> 
+25 				<configuration> 
+26 					<source>1.6</source> 
+27 					<target>1.6</target> 
+28 				</configuration> 
+29 			</plugin> 
+30 		</plugins> 
+31 	</build> 
+32 
+ 
+33 </project> 
